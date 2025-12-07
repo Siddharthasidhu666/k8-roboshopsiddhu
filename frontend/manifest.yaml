@@ -124,6 +124,7 @@ metadata:
     project: roboshop
     tier: app
 spec:
+  type: LoadBalancer
   selector:
     component: nginx
     project: roboshop
