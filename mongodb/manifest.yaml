@@ -22,8 +22,8 @@ spec:
         tier: database
     spec:
       containers:
-      - name: nginx
-        image: nginx:stable-perl
+      - name: mongodb
+        image: joindevops/mongodb:v1
 ---
 apiVersion: v1
 kind: Service
