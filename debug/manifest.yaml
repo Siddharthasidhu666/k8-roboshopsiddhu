@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: debug
+  labels:
+    project: roboshop
+    env: dev
+spec:
+  containers:
+  - name: debug
+    image: sidsiddhu789/debug:v1
